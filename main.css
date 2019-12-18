@@ -40,4 +40,48 @@
   section:nth-child(even) {
     background-color: #ddd;
   }
-  
+
+.skills-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+}  
+
+.skills-icons img {
+    height: 50px;
+    width: 50px;
+    border: solid 1px black;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+}  
+
+.projects img {
+    height: 300px;
+    width: 300px;
+    border: solid 1px black;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+}  
+
+.contact img {
+    height: 50px;
+    width: 50px;
+    border: solid 1px black;
+}
