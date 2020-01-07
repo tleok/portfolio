@@ -4,7 +4,7 @@
 
 html::after {
   content: "";
-  background: url(image.jpg);
+  background: url(hexbuilding.jpg);
   opacity: 0.5;
   top: 0;
   left: 0;
