@@ -2,6 +2,18 @@
   box-sizing: border-box;
 }
 
+html::after {
+  content: "";
+  background: url(image.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
+}
+
 body {
   font-family: "Open Sans",
   sans-serif; 
@@ -29,7 +41,8 @@ header {
 }
 
 header > img {
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 section {
@@ -48,6 +61,7 @@ section {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  
 }  
 
 .skills-icons img, 
@@ -56,7 +70,8 @@ section {
   width: 50px;
   border: solid 1px grey;
   margin: 10px;
-  border-radius: 4px 4px 4px 4px;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .projects {
@@ -75,8 +90,9 @@ section {
   width: 275px;
   border: solid 1px black;
   margin: 10px;
-  border-radius: 6px 6px 6px 6px;
+  border-radius: 2px 2px 2px 2px;
   background: lightgrey;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 } 
 
 .projects img {
