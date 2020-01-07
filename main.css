@@ -48,6 +48,8 @@
     align-items: center;
     flex-wrap: wrap;
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }  
 
 .skills-icons img {
@@ -63,12 +65,15 @@
     align-items: center;
     flex-wrap: wrap;
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }  
 
 .projects img {
     height: 300px;
     width: 300px;
     border: solid 1px black;
+    margin: 10px;
 }
 
 .contact {
@@ -78,6 +83,8 @@
     align-items: center;
     flex-wrap: wrap;
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }  
 
 .contact img {
