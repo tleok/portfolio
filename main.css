@@ -74,6 +74,10 @@ section {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
+.skillHover:hover {
+  opacity: 75%;
+}
+
 .projects {
   position: relative;
   display: flex;
@@ -107,8 +111,9 @@ section {
 }
 
 .projectsHover:hover > img,
-.projectsHover:hover > p{
-  opacity: 20%;
+.projectsHover:hover > p
+.projectsHover:hover > h1{
+  opacity: 40%;
 }
 
 .hiddenOverlay{
@@ -120,8 +125,9 @@ section {
   right: 0;
   bottom: 0;
   color: black;
-  font-size: 1.5rem;
-  opacity: 60%;
+  font-size: 1.2rem;
+  opacity: 90%;
+  padding: 50px;
 }
 
 .projectsHover:hover .hiddenOverlay{
@@ -153,30 +159,30 @@ section {
 }
 
 .contactHover:hover {
-  opacity: 50%;
+  opacity: 75%;
 }
+
+@media screen and (min-width: 700px){
+  header {
+    padding: 5%;
+  }
+
+  .skills-icons {
+    width: 60%;
+    padding-bottom: 1px;
+  }
+
+  section {
+    padding: 5%;
+    padding-top: 1px;
+  }
+  }
 
 @media screen and (min-width: 1100px){
   body {
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 50%;
     align-items: center;
   }
 }
-
-  @media screen and (min-width: 700px){
-    header {
-      padding: 5%;
-    }
-  
-    .skills-icons {
-      width: 50%;
-      padding-bottom: 1px;
-    }
-
-    section {
-      padding: 5%;
-      padding-top: 1px;
-    }
-    }
