@@ -6,7 +6,7 @@ body {
   font-family: "Open Sans",
   sans-serif; 
   font-size: 12px;
-  color: #444;
+  color: #006060;
   text-align: center;
   line-height: 1.5;
   margin: 0px;
@@ -14,7 +14,7 @@ body {
 
 footer {
   padding: 1% 0;
-  background-color: #aaa;
+  background-color: #c8defa;
 }
 
 header {
@@ -35,7 +35,8 @@ header > img {
 section {
   min-height: 200px;
   padding: 6% 0;
-  background-color: #bbb;
+  background-color: #c8defa;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .skills-icons {
@@ -146,4 +147,20 @@ section {
     width: 70%;
     align-items: center;
   }
-  }
+}
+
+  @media screen and (min-width: 700px){
+    header {
+      padding: 5%;
+    }
+  
+    .skills-icons {
+      width: 50%;
+      padding-bottom: 1px;
+    }
+
+    section {
+      padding: 5%;
+      padding-top: 1px;
+    }
+    }
