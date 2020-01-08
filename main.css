@@ -18,15 +18,10 @@ body {
   font-family: "Open Sans",
   sans-serif; 
   font-size: 12px;
-  color: #006060;
+  color: #60818A;
   text-align: center;
   line-height: 1.5;
   margin: 0px;
-}
-
-footer {
-  padding: 1% 0;
-  background-color: #c8defa;
 }
 
 header {
@@ -48,7 +43,7 @@ header > img {
 section {
   min-height: 200px;
   padding: 6% 0;
-  background-color: #c8defa;
+  background-color: #DBF8FF;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
@@ -68,7 +63,7 @@ section {
 .skills-icons svg {
   height: 50px;
   width: 50px;
-  border: solid 1px grey;
+  border: solid 1px #B4C7D1;
   margin: 10px;
   border-radius: 2px 2px 2px 2px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -92,16 +87,16 @@ section {
 
 .projects div {
   width: 275px;
-  border: solid 1px grey;
+  border: solid 1px #B4C7D1;
   margin: 10px;
   border-radius: 2px 2px 2px 2px;
-  background: #b7c0c9;
+  background: #BFE9FF;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 } 
 
 .projects img {
   width: 95%;
-  border: solid 1px grey;
+  border: solid 1px #6E7980;
   margin: 5px;
 }
 
@@ -123,7 +118,7 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  color: black;
+  color: #6E7980;
   font-size: 1.2rem;
   opacity: 0%;
   padding-left: 10%;
@@ -139,7 +134,7 @@ section {
   right: 0;
   bottom: 0;
   margin: 0px;
-  opacity: 80%;
+  opacity: 90%;
 }
 
 .contact {
