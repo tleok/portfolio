@@ -4,8 +4,8 @@
 
 html::after {
   content: "";
-  background: url("images/hexbuilding.jpg");
-  opacity: 0.09;
+  background: url("images/keyboard1.jpg");
+  opacity: 0.05;
   top: 0;
   left: 0;
   bottom: 0;
