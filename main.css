@@ -92,6 +92,7 @@ section {
   border-radius: 2px 2px 2px 2px;
   background: #BFE9FF;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 10%;
 } 
 
 .projects img {
@@ -172,6 +173,10 @@ section {
   section {
     padding: 5%;
     padding-top: 1px;
+  }
+
+  .projects div {
+    padding: 20px;
   }
 
 }
